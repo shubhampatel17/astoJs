@@ -1,0 +1,13 @@
+---
+title: Use naming conventions for variables, constants, functions and classes
+description: Use naming conventions for variables, constants, functions and classes
+---
+
+Use lowerCamelCase when naming constants, variables and functions, UpperCamelCase (capital first letter as well) when naming classes and UPPER_SNAKE_CASE when naming global or static variables. This will help you to easily distinguish between plain variables, functions, classes that require instantiation and variables declared at global module scope. Use descriptive names, but try to keep them short
+
+Otherwise: JavaScript is the only language in the world that allows invoking a constructor ("Class") directly without instantiating it first. Consequently, Classes and function-constructors are differentiated by starting with UpperCamelCase
+
+
+import RemoteCode from '../../../components/remoteCode.astro'
+
+<RemoteCode />
